@@ -1,0 +1,7 @@
+QMAKE_PRL_BUILD_DIR = /local/buildaccount/qt/qt-x11-opensource-src-4.5.3/src/3rdparty/webkit/WebCore
+QMAKE_PRO_INPUT = WebCore.pro
+QMAKE_PRL_TARGET = libQtWebKit.so.4.5.3
+QMAKE_PRL_DEFINES = QT_SHARED
+QMAKE_PRL_CONFIG = lex yacc uic resources qt release incremental link_prl exceptions no_mocdepend release stl qt_no_framework release shared dll largefile stl mmx sse sse2 dylib create_prl link_prl depend_includepath QTDIR_build building-libs depend_includepath qt_install_headers qt depend_includepath qmake_cache target_qt create_libtool create_pc explicitlib x11 link_pkgconfig no_debug_info x11lib x11inc moc thread shared dll
+QMAKE_PRL_VERSION = 4.5.3
+QMAKE_PRL_LIBS = -L/local/buildaccount/lib/ -L/soft/el4/qt-x11-opensource-src-4.5.3-I.0.1/lib -L/usr/X11R6/lib  -lQtGui -L/local/buildaccount/lib/ -L/soft/el4/qt-x11-opensource-src-4.5.3-I.0.1/lib -L/usr/X11R6/lib -pthread -lfreetype -lSM -lICE -pthread -pthread -lXrender -lfontconfig -lXext -lX11 -lQtNetwork -pthread -pthread -lQtCore -lz -lm -pthread -lgthread-2.0 -lglib-2.0 -lrt -lpthread -ldl 
