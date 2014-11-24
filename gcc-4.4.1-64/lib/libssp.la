@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/soft/el4/gcc-4.4.1-H.0.9/lib/../lib64'
+libdir='/soft/el4/gcc-4.4.1-H.0.9/lib/../lib'
